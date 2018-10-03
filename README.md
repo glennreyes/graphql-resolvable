@@ -111,6 +111,10 @@ const resolver = {
 
 ## API
 
+```
+resolvable(resolver, { whitelist, returnArgs })
+```
+
 ### Options
 
 #### `whitelist`: string[]
