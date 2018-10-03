@@ -1,4 +1,4 @@
-# graphql-resolvable
+# 💎 graphql-resolvable
 
 Run GraphQL resolvers as needed – GraphQL Resolvable bypasses resolvers if all queried fields are whitelisted or resolved by the parent object.
 
