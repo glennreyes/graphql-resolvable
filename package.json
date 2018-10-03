@@ -1,0 +1,18 @@
+{
+  "name": "graphql-resolvable",
+  "version": "1.0.0",
+  "description": "💎 Run GraphQL resolvers as needed",
+  "main": "index.js",
+  "repository": "https://github.com/glennreyes/graphql-resolvable",
+  "author": "Glenn Reyes <glenn@glennreyes.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "husky": "^1.1.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3",
+    "rollup": "^0.66.2",
+    "rollup-plugin-babel": "^4.0.3"
+  }
+}
