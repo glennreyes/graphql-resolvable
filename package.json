@@ -2,10 +2,24 @@
   "name": "graphql-resolvable",
   "version": "1.0.0",
   "description": "💎 Run GraphQL resolvers as needed",
-  "main": "index.js",
+  "keywords": [
+    "graphql",
+    "resolver",
+    "bypass",
+    "whitelist",
+    "util"
+  ],
+  "main": "lib",
+  "files": [
+    "lib",
+    "src"
+  ],
   "repository": "https://github.com/glennreyes/graphql-resolvable",
   "author": "Glenn Reyes <glenn@glennreyes.com>",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "rollup -c"
+  },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
